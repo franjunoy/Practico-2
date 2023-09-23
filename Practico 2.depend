@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1574447763 source:c:\users\santi\desktop\fran c\practico 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilaLista.h"
+
+1574447000 c:\users\santi\desktop\fran c\practico 2\pilalista.h
+
