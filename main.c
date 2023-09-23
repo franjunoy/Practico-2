@@ -46,3 +46,22 @@ int estaVacia(pila **pilaNuevo){
 int cima1(pila *pilaNuevo){
     return pilaNuevo->dato;
 }
+int main()
+{
+    pila* cima;
+    cima=NULL;
+    do{
+        printf("Menu\n");
+        printf("1) Agregar un elemento a la pila\n");
+        printf("2) Eliminar y retornar el primer elemento\n");
+        printf("3) Retornar el primer elemento sin eliminarlo\n");
+        printf("4) Vaciar la pila\n");
+        printf("5) Cantidad de elementos de la pila\n");
+        printf("6) Saber si la pila tiene o no elementos\n");
+        scanf("%d", &opcion);
+
+        
+    }
+    while(opcion!=0);
+    return 0;
+}
