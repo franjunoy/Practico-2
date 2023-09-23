@@ -46,5 +46,3 @@ int estaVacia(pila **pilaNuevo){
 int cima1(pila *pilaNuevo){
     return pilaNuevo->dato;
 }
-
-
