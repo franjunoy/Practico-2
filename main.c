@@ -27,3 +27,24 @@ void vaciaPila(pila **pilaNuevo){
         pilaAux=*pilaNuevo;
     }
 }
+int ntamao(pila *pilaNuevo){
+    b=0;
+    pila *pilaAux=pilaNuevo;
+    while(pilaAux!=NULL){
+        pilaAux=pilaAux->sgte;
+        b++;
+    }
+    return b;
+}
+int estaVacia(pila **pilaNuevo){
+   if(*pilaNuevo==NULL){
+        return 0;
+   }
+   return 1;
+
+}
+int cima1(pila *pilaNuevo){
+    return pilaNuevo->dato;
+}
+
+
