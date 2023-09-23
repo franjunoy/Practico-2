@@ -18,8 +18,12 @@ int desapila(pila **pilaNuevo){
     }
     return a;
 }
-
-
-
-
-
+void vaciaPila(pila **pilaNuevo){
+    pila *pilaAux;
+    pilaAux=*pilaNuevo;
+    while(pilaAux!=NULL){
+        *pilaNuevo=(*pilaNuevo)->sgte;
+        free(pilaAux);
+        pilaAux=*pilaNuevo;
+    }
+}
